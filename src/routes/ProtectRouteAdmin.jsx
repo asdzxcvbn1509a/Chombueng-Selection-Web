@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import useEcomStore from '../store/ecom-store'
 import { currentAdmin } from '../api/auth'
-import LoadingToRedirect from './LoadingToRedirect'
+import LoadingToRedirect from '../routes/LoadingToRedirect'
 
 const ProtectRouteAdmin = ({ element }) => {
     const [ok, setOk] = useState(false)
