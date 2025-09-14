@@ -119,7 +119,7 @@ const SearchCard = () => {
                                     <option key={item.id} value={item.id} className='text-sm md:text-2xl'>{item.name}</option>
                                 ))}
                             </select>
-                            <ChevronDown size={32} strokeWidth={2} className="absolute md:right-[425px] right-16 top-1/2 -translate-y-1/2 pointer-events-none text-[#6E6E6E] scale-75 md:scale-100" />
+                            <ChevronDown size={32} strokeWidth={2} className="absolute md:right-[450px] right-16 top-1/2 -translate-y-1/2 pointer-events-none text-[#6E6E6E] scale-75 md:scale-100" />
                         </div>
 
                         {/* ไอคอนรถเข็น อยู่ขวาสุด แถวเดียวกับ select บนมือถือ */}
