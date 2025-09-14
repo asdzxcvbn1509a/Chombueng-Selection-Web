@@ -42,7 +42,7 @@ const ProductCard = ({ item }) => {
       </div>
       <div className='md:p-4 p-3'>
         <div>
-          <p className='md:text-2xl text-lg font-semibold font-sarabun text-[#3E3E3E]'>{item.title}</p>
+          <p className='md:text-2xl text-lg font-semibold font-sarabun truncate text-[#3E3E3E]'>{item.title}</p>
           <p className='text-lg font-sarabun text-[#6E6E6E] truncate md:mt-2'>{item.description}</p>
         </div>
         <div className='mt-6'>

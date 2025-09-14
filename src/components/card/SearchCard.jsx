@@ -110,7 +110,7 @@ const SearchCard = () => {
                         <div className="relative flex-1">
                             <Filter strokeWidth={2} size={32} className="absolute md:left-6 left-3 top-1/2 -translate-y-1/2 text-[#6E6E6E] scale-75 md:scale-100" />
                             <select
-                                className="md:w-[525px] border-2 border-[#CBCBCB] rounded-md font-kanit font-light text-[#6E6E6E] md:text-2xl md:pl-20 pl-14 pr-10 py-2 appearance-none bg-transparent "
+                                className="md:w-[525px] w-5/6 border-2 border-[#CBCBCB] rounded-md font-kanit font-light text-[#6E6E6E] md:text-2xl md:pl-20 pl-14 pr-10 py-2 appearance-none bg-transparent "
                                 name="categoryId"
                                 onChange={handleCheck}
                             >
@@ -119,7 +119,7 @@ const SearchCard = () => {
                                     <option key={item.id} value={item.id} className='text-sm md:text-2xl'>{item.name}</option>
                                 ))}
                             </select>
-                            <ChevronDown size={32} strokeWidth={2} className="absolute md:right-[400px] right-2 top-1/2 -translate-y-1/2 pointer-events-none text-[#6E6E6E] scale-75 md:scale-100" />
+                            <ChevronDown size={32} strokeWidth={2} className="absolute md:right-[425px] right-16 top-1/2 -translate-y-1/2 pointer-events-none text-[#6E6E6E] scale-75 md:scale-100" />
                         </div>
 
                         {/* ไอคอนรถเข็น อยู่ขวาสุด แถวเดียวกับ select บนมือถือ */}
@@ -130,7 +130,7 @@ const SearchCard = () => {
                                 className="relative flex items-center justify-center text-[#6E6E6E] flex-shrink-0  rounded-md border-2 border-transparent hover:text-[#F58D95] hover:scale-105"
                                 aria-label="ตะกร้าสินค้า"
                             >
-                                <ShoppingCart size={45} strokeWidth={2} className='scale-75 md:scale-100' />
+                                <ShoppingCart size={45} strokeWidth={2} className='scale-75 md:scale-100 absolute right-1' />
                                 {
                                     carts.length > 0
                                     && (<span className='absolute top-0 right-0 bg-red-500 rounded-full px-2 text-white'>{carts.length}</span>)

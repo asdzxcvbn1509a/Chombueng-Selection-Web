@@ -8,7 +8,7 @@ const Community = () => {
     return (
         <div className='font-kanit bg-[#F9F6F3]'>
             <div>
-                <div className='md:text-8xl text-4xl font-medium md:pt-24 pt-10 bg-gradient-to-b from-[#F6C2CF] to-[#F9F6F3]'>
+                <div className='md:text-8xl text-3xl font-medium md:pt-24 pt-10 bg-gradient-to-b from-[#F6C2CF] to-[#F9F6F3]'>
                     <div className='flex justify-center mb-4'>
                         <p className='text-[#F49199]'>ทุกความสด</p>
                         <p className='text-[#585858]'>มีที่มา...</p>
@@ -52,7 +52,7 @@ const Community = () => {
                     </div>
                 </div>
                 <div className='bg-[#F6C2CF73] md:pt-8 md:pb-16 pb-6'>
-                    <div className='flex justify-center md:text-8xl text-4xl font-semibold md:pt-14 pt-6'>
+                    <div className='flex justify-center md:text-8xl text-3xl font-semibold md:pt-14 pt-6'>
                         <p className='text-[#F49199]'>จอมบึงซีเล็คชั่น</p>
                         <p className='text-[#585858]'>คืออะไร ?</p>
                     </div>
@@ -62,7 +62,7 @@ const Community = () => {
                         <p>ทักษะผู้ประกอบการและทัศนคติการเรียนรู้ตลอดชีวิตจนเกิดการรวมตัว</p>
                         <p>ของคนในชุมชนทุกช่วงวัยที่ต้องการพัฒนาชุมชนให้เข้มแข็งด้วยตนเอง</p>
                     </div>
-                    <div className='md:text-4xl text-lg text-[#3E3E3E] mt-4 text-center leading-tight font-light md:hidden'>
+                    <div className='md:text-4xl text-base text-[#3E3E3E] mt-4 text-center leading-tight font-light md:hidden'>
                         <p>จอมบิงซีเลคชั่นเป็นกลุ่มกิจการเพื่อสังคมที่ต่อยอด</p>
                         <p>จากโครงการวิจัยเพื่อพัฒนาความเป็นพลเมือง</p>
                         <p>กระตือรือร้น มุ่งเสริมทักษะการแก้ปัญหา</p>
@@ -84,7 +84,7 @@ const Community = () => {
                             <p>เรียนรู้แนวทางการพัฒนาอย่างยั่งยืนจากคนในพื้นที่</p>
                             <p>และร่วมเปิดมุมมองใหม่สู่การพัฒนาชุมชนจากภายในอย่างแท้จริง</p>
                         </div>
-                        <div className='md:text-3xl text-lg leading-tight text-[#585858] md:mt-8 mt-4 font-light px-3 md:px-0 md:hidden'>
+                        <div className='md:text-3xl text-base leading-tight text-[#585858] md:mt-8 mt-4 font-light px-3 md:px-0 md:hidden'>
                             <p>ตั้งอยู่ในพื้นที่อันเงียบสงบของอำเภอจอมบึง</p>
                             <p>จังหวัดราชบุรี</p>
                             <p>ชุมชนของเรารวมกลุ่มผู้คนหลากหลายช่วงวัยที่ร่วมกัน</p>

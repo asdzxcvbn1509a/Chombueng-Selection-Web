@@ -37,22 +37,24 @@ const Shop = () => {
         <SearchCard />
       </div>
 
-      {/* Product */}
-      <div className='min-h-screen md:pt-4 flex flex-col bg-[#F9F6F3]'>
+      {/* Product Section */}
+      <div className='min-h-screen py-8 bg-[#F9F6F3]'>
         {sortedCategories.map((category) => {
           const items = groupedProducts[category.name];
           if (!items) return null;
 
           return (
-            <div key={category.id}>
-              <h1 className='text-[#6E6E6E] font-kanit md:text-2xl text-lg md:mx-24 mx-6 pt-4'>
-                {category.name}
-              </h1>
-              <br />
-              <div className='grid grid-cols-2 md:grid-cols-4 max-w-[1400px] md:mx-auto md:gap-x-32 scale-95 md:scale-100 gap-2 md:-mt-2 -mt-8'>
-                {items.map((item, index) => (
-                  <ProductCard key={item.id} item={item} />
-                ))}
+            <div key={category.id} className="mb-12"> {/* เพิ่ม margin-bottom ให้แต่ละ category */}
+              <div className="container mx-auto px-4">
+                <h1 className='text-[#6E6E6E] font-kanit md:text-2xl text-lg mb-6'>
+                  {category.name}
+                </h1>
+                
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8'>
+                  {items.map((item) => (
+                    <ProductCard key={item.id} item={item} />
+                  ))}
+                </div>
               </div>
             </div>
           );
