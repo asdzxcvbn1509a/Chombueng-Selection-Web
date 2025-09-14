@@ -52,7 +52,7 @@ const ProductCard = ({ item }) => {
           <br />
           <button
             onClick={() => actionAddtoCart(item)}
-            className=' bg-[#9FC69F] mt-2 py-1 rounded-md hover:scale-105 text-white w-full flex justify-center gap-3 font-kanit font-light md:text-xl text-lg'>
+            className=' bg-[#9FC69F] mt-2 py-1 rounded-md hover:scale-105 text-white w-full flex justify-center gap-2 font-kanit font-light md:text-xl text-lg'>
             <ShoppingCart />
             เพิ่มลงตะกร้า
           </button>

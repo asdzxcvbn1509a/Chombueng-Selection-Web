@@ -45,12 +45,12 @@ const Shop = () => {
 
           return (
             <div key={category.id} className="mb-12"> {/* เพิ่ม margin-bottom ให้แต่ละ category */}
-              <div className="container mx-auto px-4">
-                <h1 className='text-[#6E6E6E] font-kanit md:text-2xl text-lg mb-6'>
+              <div className="container mx-auto">
+                <h1 className='text-[#6E6E6E] font-kanit md:text-2xl text-lg mb-6 ml-4'>
                   {category.name}
                 </h1>
                 
-                <div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8'>
                   {items.map((item) => (
                     <ProductCard key={item.id} item={item} />
                   ))}
