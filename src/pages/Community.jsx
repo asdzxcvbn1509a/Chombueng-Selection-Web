@@ -40,7 +40,7 @@ const Community = () => {
                         <div className='bg-[linear-gradient(135deg,#FFB3C6,#FFFFFF)] rounded-full p-6 text-white w-36 h-36'>
                             <Medal size={96} />
                         </div>
-                        <p className='text-6xl font-semibold text-[#FFB3C6] mt-6'>3+</p>
+                        <p className='text-6xl font-semibold text-[#FFB3C6] mt-6'>1+</p>
                         <p className='text-2xl mt-4 text-[#3E3E3E]'>ปีแห่งความชำชาญ</p>
                     </div>
                     <div className='flex flex-col items-center mt-16 md:mt-0'>
