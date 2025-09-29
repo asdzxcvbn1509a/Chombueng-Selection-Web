@@ -16,45 +16,6 @@ const Home = () => {
       <div>
         <section className="relative items-center md:justify-center bg-cover bg-center w-full md:h-[600px] h-[575px] md:pt-0 pt-32 bg-[#BFBFBF] hidden md:block"
           style={{ backgroundImage: 'url("https://res.cloudinary.com/dtcif0lxf/image/upload/v1757347595/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD_22_pxe8hh.png")' }}>
-          {/* <div className='absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-pink-300/60 to-transparent'>
-
-          </div>
-          <div className="relative z-10 px-0 text-center text-white ">
-            <div className='drop-shadow-[2px_2px_6px_rgba(255,105,180,0.8)]'>
-              <h1 className="font-kanit text-4xl md:text-9xl font-semibold leading-tight mb-4 md:mt-10">
-                จอมบึงซีเลคชั่น
-              </h1>
-              <h1 className='font-kanit text-4xl md:text-9xl font-semibold leading-tight'>
-                เราคัดสรรมาเพื่อคุณ
-              </h1>
-              <p className="md:mt-10 mt-4 text-2xl md:text-5xl text-white/90  font-normal font-kanit">
-                ปลอดสารเคมี ผลผลิตสะอาดจากชาวบ้าน
-              </p>
-              <p className='md:mt-4 mt-0 text-2xl md:text-5xl text-white/90 font-normal font-kanit'>
-                ส่งตรงถึงมือคุณจากชุมชนท้องถิ่น
-              </p>
-            </div>
-            <div className="mt-10  flex flex-wrap justify-center md:gap-14 gap-10 font-kanit">
-              <NavLink
-                to={'/shop'}
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-                style={{
-                  backgroundColor: isHover
-                    ? 'rgba(255, 151, 208, 0.8)'
-                    : 'rgba(232, 196, 218, 0.8)',
-                }}
-                className="text-white md:py-4 md:px-8 px-4 py-2 rounded-lg md:text-4xl text-2xl font-normal flex items-center gap-4">
-                <ShoppingCart size={32} /> เลือกชมสินค้า
-              </NavLink>
-
-              <NavLink to={'/community'}>
-                <button className="border-2 border-white hover:bg-white hover:text-black text-white font-normal md:py-3 md:px-6 px-4 py-1 rounded-2xl md:text-4xl text-2xl font-kanit">
-                  เยี่ยมชมชุมชน →
-                </button>
-              </NavLink>
-            </div>
-          </div> */}
         </section>
         <section className='md:hidden h-[550px] bg-center' style={{ backgroundImage: 'url("https://res.cloudinary.com/dtcif0lxf/image/upload/v1757349241/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD_28_olbyqk.png")' }}>
 
