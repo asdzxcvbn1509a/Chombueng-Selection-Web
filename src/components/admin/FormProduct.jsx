@@ -99,7 +99,7 @@ const FormProduct = () => {
                     className='border shadow-sm'
                     value={form.description}
                     onChange={handleOnChange}
-                    placeholder='ลายละเอียด'
+                    placeholder='รายละเอียด'
                     name='description'
                 />
                 <input
